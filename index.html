@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Järnfors - portfolio</title>
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <link href="styles.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="toiminnallisuus.js"></script>
+</head>
+
+
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">Home page</a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#videocv">My video CV</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#me">About me</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#achievements">My achievements</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead text-center text-white">
+        <div class="masthead-content">
+            <div class="container px-5">
+                <img class="img-fluid rounded-circle" src="me2.jpg" />
+                <br />
+                <h2 class="masthead-subheading mb-0">Mira Järnfors</h2>
+                <h4>Student at Karelia university of applied sciences</h4>
+            </div>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+            </div>
+
+
+            <p class="teksti">
+                Graduating as a Bachelor of Business Administration with a degree in Information technology
+            </p>
+
+
+        </div>
+        <div class="bg-circle-1 bg-circle"></div>
+        <div class="bg-circle-2 bg-circle"></div>
+        <div class="bg-circle-3 bg-circle"></div>
+        <div class="bg-circle-4 bg-circle"></div>
+    </header>
+
+
+    <!-- About Section-->
+    <section class="page-section bg-primary text-white mb-0" id="videocv">
+        <div class="container">
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">
+
+                My video CV
+            </h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- About Section Content-->
+            <!--LIITÄ TÄHÄN VIDEO CV
+                <div class="row justify-content-center">
+                <iframe height="650" width="400" src="https://www.youtube.com/embed/pVtj6I0akuQ">
+                </iframe>
+            </div>
+        -->
+        </div>
+    </section>
+
+
+    <section class="page-section bg-primary portfolio" id="me">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">
+                About me
+            </h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+            </div>
+
+
+            <br />
+
+
+            <!-- Portfolio Grid Items-->
+            <div class="row justify-content-center">
+                <!-- Portfolio Item 1-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <div>Click to expand</div>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="education1.jpg" alt="..." />
+                    </div>
+                    <br />
+                    <div class="aboutMeButton text-center">
+                        <button data-bs-toggle="modal" data-bs-target="#portfolioModal1">My education</button>
+                    </div>
+                </div>
+                <!-- Portfolio Item 2-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <div>Lue lisää painamalla</div>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="work1.jpg" alt="..." />
+                    </div>
+                    <br />
+                    <div class="aboutMeButton text-center">
+                        <button data-bs-toggle="modal" data-bs-target="#portfolioModal2">My work experience</button>
+                    </div>
+                </div>
+                <!-- Portfolio Item 3-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <div>Lue lisää painamalla</div>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="programmingLanguages1.jpg" alt="..." />
+                    </div>
+                    <br />
+                    <div class="aboutMeButton text-center">
+                        <button data-bs-toggle="modal" data-bs-target="#portfolioModal3">My programming knowledge</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section-->
+    <section class="page-section bg-light " id="achievements">
+        <div class="container">
+            <!-- Contact Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">
+                My achievements
+            </h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+            </div>
+            <br />
+
+            <div  class="icon-box">
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-square fa-stack-2x"></i>
+                    <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <br/>
+                  <p class="icon-text" >
+                    During my studies, specifically during my second year I took part in being a tutor, which meant helping students and teachers alike, took 
+                    part in teaching first year students about the technology and programs that we use and organized events. 
+                    I am also a deputy member and secretary in Kilta Ry - Joensuus Bachelor of Business Administration students organisation.
+                  </p>
+                    </div>
+
+                    <br/>
+            <div class="icon-box">
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-square fa-stack-2x"></i>
+                    <i class="	fas fa-users fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <br/>
+                  <p class="icon-text" >
+                    While studying at the university of Eastern Finland during my second year I took part in helping, 
+                    guiding and organizing events for first year students in my role as a tutor.
+                    I also took part in our studentd organisation Iskra Ry and participated as a fund manager for three years and a member for four years.
+                    </p>
+                </p>
+            </div>
+            <br/>
+
+            <div class="icon-box">
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-square fa-stack-2x"></i>
+                    <i class="fa-solid fa-globe fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <br/>
+                  <p class="icon-text">
+                    During my university studies, I participated in an exchange program to Tver, Russia, 
+                    where I learned how to make independent decisions and communicate in an unfamiliar and changing environment</p>
+            </div>
+            <br/>
+        </div>
+    </section>
+
+    
+    <!-- Footer-->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4>Yhteystiedot</h4>
+                    <p>050 302 3839</p>
+                    <p>mira.jarnfors@gmail.com</p>
+                    <p>Huvilakatu 26 A 4, 80200 Joensuu</p>
+                    <a style="color: white" href="https://www.linkedin.com/in/mira-j%C3%A4rnfors-6748161a1/"target="_blank">My linkedIn profile</a>
+                </div>
+            </div>
+    </footer>
+    <!-- Portfolio Modals-->
+    <!-- Portfolio Modal 1-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">
+                                    My education
+                                </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Text-->
+
+                                <h5>Bachelor of Business</h5>
+                                <p class="mb-4">
+                                   I am currently studying to become a Bachelor of Business Administration with a degree in Information technology.
+                                   My choosen field of specialisation is in ICT and our courses consist of topics such as algorithms and data structures as well as web programming. 
+                                </p>
+                                
+                                <h5>Bachelor of Russian language and culture</h5>
+                                <p class="mb-4">
+                                 I hold a Bachelor in Russian language and culture, with minors in such fields as Finnish and English languages as well as EU and Russian geographical studies.
+                                I acquired my degree in University of Eastern Finland and graduated in 2021.
+                                </p>
+
+                                <h5>Finnish matriculation exam</h5>
+                                <p class="mb-4">
+                                I graduated from Lauttakylä high school in 2017 and hold a finnish matriculation exam.
+                                </p>
+
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">
+                                    My work experience
+                                </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Text-->
+                                <h5>Alko Oy</h5>
+                                <p class="mb-4">
+                                I worked for Finland national alcoholic beverage retailing monopoly 
+                                in sales and customer service work. During this period I learned multiple valuable skills, 
+                                some of which include finding out exactly what the customer needs and wants, and offering the perfect solution for this, as well as conflict resolution
+                                and communication with people of different backgrounds.
+                                <br/>  
+                                
+                                <br/>
+                                Work periods: 4/2020-12/2020, 6/2021-12/2021 & 6/2022-8/2022
+                                    
+                                </p>
+
+                                <h5>ISS Oy</h5>
+                                <p class="mb-4">
+                                    I worked for ISS Oy as an office cleaner in Tiedepuisto Business Park in Joensuu. Working as a cleaner has taught me 
+                                    incredibely valuable skills such as the importance of attention to detail, time management,
+                                    and the ability to work efficiently in a team. 
+                                    These skills are also essential when it comes to working in the field of information technology.
+                                <br/>
+                                <br/>
+                                Work periods: 2/2019-2/2019 & 6/2019-3/2020
+                                    
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">
+                                    My programming knowledge
+                                </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Text-->
+                               
+                                <h5>React, HTML and CSS, JavaScript</h5>
+                                <p class="mb-4">
+                                    During my studies in Karelia University of Applied Sciences I have attended courses 
+                                    such as Web programming, Front end development and web and mobile user intefaces, where I have had the opportunity
+                                    to learn in depth about HTML and CSS, as well as JavaScript and React, which the latter course
+                                    concentrated on. I am also familiar with bootstrap, but I would love to learn more about these things.
+                                     
+                                </p>
+                        
+                                
+                                <h5>Java</h5>
+                                <p class="mb-4">
+                                    My field of specialisation in Karelia includes ICT studies, where we have had the chance to use Java as our main
+                                    programming langauge on many project as well self study courses. During these courses I have learned
+                                    anout Java and Object-Oriented Programming (OOP), algorithms and data structures and their time complexities.
+                                </p>
+                                <h5>SQL</h5>
+                                <p class="mb-4">
+                                    As a second-year Information technology student, I have a solid foundation in the basics of SQL and am
+                                    through my coursework and projects, I have gained experience in creating and designing databases as well as
+                                    about their connectivity with websites. 
+                                    I like working with databases and look forward to applying my skills in real life.
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+</html>
